@@ -45,14 +45,59 @@ namespace HelloWorld
             // Console.WriteLine("seu nome é: ");
             //  Console.WriteLine(nome); */ 
 
-            int numeroQualquer = 24 + 50;
-            int numeroMult = 50 * 30;
-            float numeroDiv = 773f/ 3;
-            int teste = (5 + 3) * 4;
-            Console.WriteLine(numeroQualquer);
-            Console.WriteLine(numeroMult);
-            Console.WriteLine(numeroDiv);
-            Console.WriteLine(teste);
+            /* int numeroQualquer = 24 + 50;
+             int numeroMult = 50 * 30;
+             float numeroDiv = 773f/ 3;
+             int teste = (5 + 3) * 4;
+             Console.WriteLine(numeroQualquer);
+             Console.WriteLine(numeroMult);
+             Console.WriteLine(numeroDiv);
+             Console.WriteLine(teste); */
+
+
+            // + de uma condição dentro do if você usa o (E ou AND) && e || (OU/OR) sempre que tiver 2 opções ele entra como verdadeiro, caso se encaixe em uma delas
+            // true || true => true 
+            // false || true => true 
+            // true || false => true 
+            // False || false => false 
+
+            /*
+            int a = 10;
+            int b = 20;
+            int c = 200;
+
+            if (a < b ||  a > c) // SE 
+            {
+                Console.WriteLine("É verdade!");
+            }
+            else if (20 != 20)
+            {
+                Console.WriteLine("executou o elseIf");
+            }
+            else // SE NAO 
+            {
+                Console.WriteLine("É Falso!");
+            } 
+            */
+            Console.WriteLine("digite sua idade");
+            int idade = int.Parse(Console.ReadLine());
+            if (idade >= 0 && idade <= 11)
+            {
+                Console.WriteLine("Você é uma criança");
+            }
+            else if (idade >= 12 && idade <= 18) 
+            {
+                Console.WriteLine("Você é um adolescente"); 
+            } 
+            else if (idade >= 19 && idade <= 60) 
+            {
+                Console.WriteLine("voce é um adulto");
+            }
+            else
+            {
+                Console.WriteLine("voce é um idoso");
+            }
+           
 
 
             Console.ReadLine(); 

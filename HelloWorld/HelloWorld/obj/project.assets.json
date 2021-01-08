@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Nathalia\\Desktop\\Aula cSharp\\HelloWorld\\HelloWorld\\HelloWorld.csproj",
+      "projectUniqueName": "C:\\Users\\Nathalia\\Desktop\\CSharp\\HelloWorld\\HelloWorld\\HelloWorld.csproj",
       "projectName": "HelloWorld",
-      "projectPath": "C:\\Users\\Nathalia\\Desktop\\Aula cSharp\\HelloWorld\\HelloWorld\\HelloWorld.csproj",
+      "projectPath": "C:\\Users\\Nathalia\\Desktop\\CSharp\\HelloWorld\\HelloWorld\\HelloWorld.csproj",
       "packagesPath": "C:\\Users\\Nathalia\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Nathalia\\Desktop\\Aula cSharp\\HelloWorld\\HelloWorld\\obj\\",
+      "outputPath": "C:\\Users\\Nathalia\\Desktop\\CSharp\\HelloWorld\\HelloWorld\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
