@@ -4,6 +4,8 @@ namespace HelloWorld
 {
     class Program
     {
+        private static object console;
+
         static void Main(string[] args)
         {
             /* int segundaGuerraMundial = 1942; // numero inteiro, não utiliza aspas 
@@ -79,7 +81,7 @@ namespace HelloWorld
                 Console.WriteLine("É Falso!");
             } 
             */
-            Console.WriteLine("digite sua idade");
+            /*Console.WriteLine("digite sua idade");
             int idade = int.Parse(Console.ReadLine());
             if (idade >= 0 && idade <= 11)
             {
@@ -97,10 +99,20 @@ namespace HelloWorld
             {
                 Console.WriteLine("voce é um idoso");
             }
-           
-
-
+           */
+           //  ExibirMensagem(); //serve para a quantidade de vezes que você quer mostrar a mensg. 
+            GerarPreco(500);
             Console.ReadLine(); 
+        }
+        static void ExibirMensagem ()
+        {
+            Console.WriteLine("esse programa é bom");
+            Console.WriteLine("Agora usando o VSC");
+            Console.WriteLine("não sei se vai da bom!!!");
+        }
+        static void GerarPreco(int preco);
+        {
+            Console.WriteLine(preco);
         }
     }
 }
